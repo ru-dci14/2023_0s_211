@@ -9,7 +9,7 @@ pythagorean triple, or it will return -1 because the input was not a pythagorean
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
-//Is this not working?
+
 int root(); 
 
 int main(int argc, char* argv[])
@@ -21,7 +21,7 @@ int main(int argc, char* argv[])
   {
     perror("fopen failed");
     return EXIT_FAILURE;
-  }  //Newest version 9:07pm
+  }
 
   char buf[256];
 
